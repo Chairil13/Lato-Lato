@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "gilroy", sans-serif;
+  text-transform: uppercase;
+}
+
+.typeIt {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  padding: 16px;
+  font-weight: bold;
+  margin: 2em 1em;
+  /* white-space: nowrap;
+  overflow: hidden; */
+  letter-spacing: 5px;
+}
+
+#score {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 16px;
+  font-size: 1.2rem;
+}
+
+.arena {
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.latto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform-origin: top;
+}
+
+.tali {
+  width: 4px;
+  height: 200px;
+  background: white;
+}
+
+.biji {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: seagreen;
+  border: 1px solid white;
+}
